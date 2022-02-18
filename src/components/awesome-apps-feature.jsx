@@ -46,7 +46,7 @@ const AwesomeAppsFeatures = () => {
               headColor="red"
               headline="Fast Performance"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
-              orientation=""
+              direction="column"
             />
           </Stack>
           <Stack mb={4}>
@@ -55,7 +55,7 @@ const AwesomeAppsFeatures = () => {
               headColor="blue"
               headline="Prototyping"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
-              orientation=""
+              direction="row"
             />
           </Stack>
           <Stack mb={4}>
@@ -64,7 +64,7 @@ const AwesomeAppsFeatures = () => {
               headColor="green"
               headline="Vector Editing"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
-              orientation=""
+              direction="row"
             />
           </Stack>
         </Stack>
