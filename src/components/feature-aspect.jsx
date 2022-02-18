@@ -1,17 +1,24 @@
 import React from "react";
+import { Stack, Typography } from "@mui/material";
 import "./feature-aspect.css";
 
-const FeatureAspect = ({ iconPath, headline, content, orientation }) => {
+const FeatureAspect = ({
+  iconPath,
+  headline,
+  headColor,
+  content,
+  orientation,
+}) => {
   return (
-    <div>
-      <div>
-        <img src={iconPath} alt="Icon" />
-      </div>
-      <div>
-        <div>{headline}</div>
-        <div>{content}</div>
-      </div>
-    </div>
+    <Stack direction="row" alignItems="center">
+      <img src={iconPath} alt="Icon" />
+      <Stack direction="column">
+        <Typography variant="h6" color={headColor}>
+          {headline}
+        </Typography>
+        <Typography>{content}</Typography>
+      </Stack>
+    </Stack>
   );
 };
 
