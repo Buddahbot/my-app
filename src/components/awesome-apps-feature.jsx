@@ -1,5 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
+import { grey } from "@mui/material/colors";
 import "./awesome-apps-features.css";
 import southwest from "../images/southwest.png";
 import anubis from "../images/anubis.png";
@@ -32,16 +33,16 @@ const AwesomeAppsFeatures = () => {
           </Stack>
         </Stack>
         <Stack>
-          <Typography variant="h4" mb={2}>
+          <Typography variant="h4" mb={2} color={grey[800]} fontWeight="bold">
             Awesome apps features
           </Typography>
-          <Typography mb={5}>
+          <Typography mb={9} color={grey[700]}>
             Increase productivity with a single to-do-aoo. app for managing your
             personal budgets.
           </Typography>
           <Stack mb={4}>
             <FeatureAspect
-              iconPath={fastPerformance}
+              icon={fastPerformance}
               headColor="red"
               headline="Fast Performance"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
@@ -50,7 +51,7 @@ const AwesomeAppsFeatures = () => {
           </Stack>
           <Stack mb={4}>
             <FeatureAspect
-              iconPath={prototyping}
+              icon={prototyping}
               headColor="blue"
               headline="Prototyping"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
@@ -59,7 +60,7 @@ const AwesomeAppsFeatures = () => {
           </Stack>
           <Stack mb={4}>
             <FeatureAspect
-              iconPath={vectorEditing}
+              icon={vectorEditing}
               headColor="green"
               headline="Vector Editing"
               content="Get your blood tests delivered at home collect as sample from the news your blood test."
