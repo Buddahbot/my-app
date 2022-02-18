@@ -1,7 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
 import { grey } from "@mui/material/colors";
-import "./feature-aspect.css";
 
 const FeatureAspect = ({ icon, headline, headColor, content, direction }) => {
   const getAlignItems = () => {

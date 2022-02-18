@@ -1,7 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
 import { grey } from "@mui/material/colors";
-import "./awesome-apps-features.css";
 import southwest from "../images/southwest.png";
 import anubis from "../images/anubis.png";
 import alonzo from "../images/alonzo.png";
