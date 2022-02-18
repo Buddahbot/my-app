@@ -1,5 +1,11 @@
 import React from "react";
 import "./awesome-apps-features.css";
+import southwest from "../images/southwest.png";
+import anubis from "../images/anubis.png";
+import alonzo from "../images/alonzo.png";
+import express from "../images/express.png";
+import maniac from "../images/maniac.png";
+import phone from "../images/phone2.png";
 import FeatureAspect from "./feature-aspect";
 
 const AwesomeAppsFeatures = () => {
@@ -7,13 +13,15 @@ const AwesomeAppsFeatures = () => {
     <div>
       <div>Trusted by companies like</div>
       <div>
-        <img src="#" alt="Southmeat" />
-        <img src="#" alt="Anubis" />
-        <img src="#" alt="Alonzo" />
-        <img src="#" alt="Express" />
-        <img src="#" alt="Maniac" />
+        <img src={southwest} alt="Southwest" />
+        <img src={anubis} alt="Anubis" />
+        <img src={alonzo} alt="Alonzo" />
+        <img src={express} alt="Express" />
+        <img src={maniac} alt="Maniac" />
       </div>
-      <div>Smart phone</div>
+      <div>
+        <img src={phone} alt="Phone" />
+      </div>
       <div>Awesome apps features</div>
       <div>
         Increase productivity with a single to-do-aoo. app for managing your
